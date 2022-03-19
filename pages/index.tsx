@@ -1,6 +1,11 @@
 import Head from 'next/head'
+import About from '../components/about/about'
+import Assignments from '../components/assignments/assignments'
+import Footer from '../components/footer/footer'
 import Layout, { siteTitle } from '../components/layout'
-import Topbar from '../components/topbar'
+import Portfolio from '../components/portfolio/portfolio'
+import Topbar from '../components/topbar/topbar'
+import Welcome from '../components/welcome/welcome'
 
 export default function Home() {
   return (
@@ -12,6 +17,11 @@ export default function Home() {
         </style> 
       </Head>      
       <Topbar />
+      <Welcome />
+      <About />
+      <Assignments />
+      <Portfolio />
+      <Footer />
     </Layout>
   )
 }

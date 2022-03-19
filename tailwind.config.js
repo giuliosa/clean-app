@@ -11,8 +11,14 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      'blue': '#007CFB',
+      'blue': {
+        200: '#007CFB',
+        300: '#0431B8',
+        400: '#22356f',
+        500: '#000E39'
+      },
       'medium-blue': '#0431B8',
+      'blue-as': '#22356f',
       'dark-blue': '#000E39',
       'purple': '#7e5bef',
       'pink': '#ff49db',
@@ -36,6 +42,11 @@ module.exports = {
       borderRadius: {
         '4xl': '2rem',
       }
+    },
+    backgroundImage: {
+      'welcome-image': "url('/images/empresa-de-limpeza-de-sofa.jpeg')",
+      'assignments-image': "url('/images/bg-section-05.jpg')",
+      'pattern': "url('/images/bg-contact-form.png')",
     }
   },
   plugins: [],
