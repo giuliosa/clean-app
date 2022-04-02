@@ -39,22 +39,15 @@ export default function Footer() {
                             <li className="text-sm text-gray-light mb-5">
                                 Email: email@gmail.com
                             </li>
-
                         </ul>
-
                     </div>
 
                     <div className="pr-8">
                         <h4 className="font-bold text-xl mb-2">
                             Instagram
                         </h4>
-                        
-
                     </div>
-
-
                 </div>
-
             </div>
         </footer>
     )
