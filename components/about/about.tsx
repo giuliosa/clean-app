@@ -11,13 +11,13 @@ export default function About() {
                         <b className="font-bold">Porque você deve escolher</b> <br/> nossos serviços?
                     </h2>
                     <div className="divide-y divide-solid divide-gray-light mb-6">
-                        <p className="mb-6 text-blue-400">Bixol is a design studio founded in London. Nowadays, we’ve grown and expanded our services, and have become a multinational firm, offering a variety of services and solutions Worldwide.</p>
+                        <p className="mb-6 text-blue-400">Seu sofá é o coração da sua casa - é onde você relaxa, assiste a filmes com a família e recebe amigos. Mas com o tempo, mesmo o sofá mais resistente pode acumular sujeira, manchas e odores desagradáveis. É aí que entramos: nosso serviço de limpeza de sofá de primeira classe garante que seu sofá volte a parecer e cheirar como novo. Deixe-nos cuidar do seu sofá para que você possa desfrutar de sua casa com conforto e confiança.</p>
                         <ul className="list-disc pt-6 pl-6">
-                            <li className="mb-3 text-blue-400">The housekeepers we hired are professionals who take pride in doing excellent work and in exceeding expectations.</li>
-                            <li className="mb-3 text-blue-400">We carefully screen all of our cleaners, so you can rest assured that your home would receive the absolute highest quality of service providing.</li>
+                            <li className="mb-3 text-blue-400">Equipe profissional e experiente que utiliza técnicas de limpeza eficazes.</li>
+                            <li className="mb-3 text-blue-400">Resultados de limpeza de alta qualidade com uso de produtos seguros e ambientalmente responsáveis.</li>
                         </ul>
                     </div>
-                    <Button>Detalhes</Button>
+                    {/* <Button>Detalhes</Button> */}
                 </div>
             </div>
         </section>

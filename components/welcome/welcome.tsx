@@ -3,12 +3,12 @@ import ContactForm from "./contact-form";
 
 export default function Welcome() {
     return (
-        <section id="home" className="bg-welcome-image bg-no-repeat bg-cover max-h-screen">
+        <section id="home" className="bg-welcome-image bg-no-repeat bg-cover max-h-screen contrast-125">
             <div className="container mx-auto">
                 <div className="flex flex-row">
                     <div className="py-32 w-2/3 pr-14">
-                        <h1 className="text-7xl text-white font-bold mb-4">Limpeza de móveis</h1>
-                        <p className="text-xl text-white font-medium mb-7">Lorem ipsum dolor sit amet. Texto para encher linguiça enquanto eu não tenho o que colocar realmente aqui</p>
+                        <h1 className="text-7xl text-white font-bold mb-4 drop-shadow-md">Limpeza de móveis</h1>
+                        <p className="text-xl text-white font-medium mb-7 drop-shadow-md">Renove seu sofá com o nosso serviço de limpeza profissional. Agende agora e sinta a diferença!</p>
                         <Button>Me contrata</Button>
                     </div>
                     <div className="w-1/3 absolute right-0">

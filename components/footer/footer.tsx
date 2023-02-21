@@ -8,7 +8,7 @@ export default function Footer() {
                             Nós somos <b className="text-blue-200">SR CleanMaster</b>
                         </h4>
                         <p className="text-sm text-gray-light">
-                            We work with a passion of taking challenges and creating new ones in advertising sector.
+                        Fornecemos serviços de limpeza de estofados de alta qualidade, com foco na satisfação do cliente, excelência na técnica e uso de produtos seguros e ambientalmente responsáveis.
                         </p>
 
                     </div>

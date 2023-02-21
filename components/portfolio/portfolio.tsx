@@ -11,7 +11,7 @@ export default function Portfolio() {
                     </h2>
                 </div>
                 <div>
-                    <p className="pr-40">We shows only the best websites and portfolios built completely with passion, simplicity & creativity.</p>
+                    <p className="pr-40">Nossa equipe profissional e experiente utiliza técnicas de limpeza avançadas e produtos seguros para a saúde e meio ambiente.</p>
                 </div>
             </div>
 
