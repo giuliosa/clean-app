@@ -1,15 +1,21 @@
 import AssignmentsCard from "./assignments-card";
+import serviceIcon3 from "../../public/images/service-icon-3.png"
+import serviceIcon5 from "../../public/images/service-icon-5.png"
+import serviceIcon6 from "../../public/images/service-icon-6.png"
 
 export default function Assignments() {
     const assignments = [{
+        image: serviceIcon3,
         title: "Limpeza de estofados",
         description: "Nós usamos técnicas de limpeza de alta qualidade para remover manchas, sujeira e odores dos seus estofados, deixando-os limpos, frescos e renovados."
     },
     {
+        image: serviceIcon5,
         title: "Limpeza de colchões",
         description: "Nós removemos ácaros, sujeira e manchas dos seus colchões com equipamentos de limpeza profissional e produtos seguros para a saúde, melhorando a qualidade do seu sono."
     },   
     {
+        image: serviceIcon6,
         title: "Limpeza de tapetes",
         description: "Nós usamos técnicas avançadas para remover manchas, sujeira e odores dos seus tapetes, deixando-os com uma aparência e sensação renovadas, como se fossem novos."
     }   
