@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <footer className="bg-blue-500 p-14 text-white">
             <div className="container mx-auto">
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-row justify-between sm:flex-col">
                     <div className="pr-8">
                         <h4 className="font-bold text-xl mb-2">
                             Nós somos <b className="text-blue-200">SR CleanMaster</b>

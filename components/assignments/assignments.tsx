@@ -21,17 +21,17 @@ export default function Assignments() {
     }   
     ]
     return (
-        <section id="assignments" className="bg-assignments-image bg-no-repeat bg-cover max-h-screen">
+        <section id="assignments" className="bg-assignments-image bg-no-repeat bg-cover max-h-screen sm:max-h-max">
             <div className="container mx-auto py-16 text-center">
                 <h3 className="font-sans font-semibold text-lg text-blue-500 mb-4">Serviços</h3>
-                <h2 className="font-sans text-4xl text-blue-400 mb-4">
-                    <b className="font-bold">Nós providenciamos os melhores</b> <br /> serviços para ajudá-lo?
+                <h2 className="font-sans text-4xl text-blue-400 mb-4 sm:text-left sm:px-5">
+                    <b className="font-bold">Nós providenciamos os melhores</b> <br /> serviços para ajudá-lo!
                 </h2>
 
-                <p className="mb-6 text-blue-400 px-40">Oferecemos remoção de manchas difíceis, odores desagradáveis e sujeira profunda para garantir que seus estofados fiquem com uma aparência e sensação de como novos. </p>
+                <p className="mb-6 text-blue-400 px-40 sm:px-5 sm:text-left">Oferecemos remoção de manchas difíceis, odores desagradáveis e sujeira profunda para garantir que seus estofados fiquem com uma aparência e sensação de como novos. </p>
 
 
-                <div className="flex flex-row justify-between mt-24">
+                <div className="flex flex-row justify-between mt-24 sm:flex-col">
                 {assignments.map((item) => (
                     // eslint-disable-next-line react/jsx-key
                     <AssignmentsCard assignment={item}/>
