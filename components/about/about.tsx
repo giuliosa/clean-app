@@ -2,10 +2,10 @@ import Button from "../shared/button";
 
 export default function About() {
     return (
-        <section id="about" className="container mx-auto">
-            <div className="flex flex-row py-16">
-                <div className="bg-blue-200 w-1/2 h-144 rounded-lg"></div>
-                <div className="w-1/2 pl-10 pr-14" >
+        <section id="about" className="container mx-auto sm:mt-40">
+            <div className="flex flex-row py-16 sm:flex-col">
+                <div className="bg-blue-200 w-1/2 h-144 rounded-lg sm:w-screen sm:rounded-none"></div>
+                <div className="w-1/2 pl-10 pr-14 sm:w-screen sm:mt-5">
                     <h3 className="font-sans font-semibold text-lg text-blue-500 mb-4">Sobre SR CleanMaster</h3>
                     <h2 className="font-sans text-4xl text-blue-400 mb-4">
                         <b className="font-bold">Porque você deve escolher</b> <br/> nossos serviços?
